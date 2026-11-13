@@ -10,15 +10,6 @@ tracker:
                 - fullsend-ai/fullsend
                 - fullsend-ai/agents
 runtime: dummy
-agents:
-    - name: local-base
-      source: harness/local-base.yaml
-    - name: local-child
-      source: harness/local-child.yaml
-    - name: remote-base-child
-      source: harness/remote-base-child.yaml
-    - name: remote-child
-      source: https://raw.githubusercontent.com/fullsend-ai-test/bt-01a1d55d93c37b559ecfc0cf43c1b0f1-allow-ee10a1f8-base-harness-host/main/harness/remote-child.yaml#sha256=1e935d37ebb3c682e714702c748090c043325e7c5fb704baf14371f278adf7bc
 allowed_remote_resources:
     - https://raw.githubusercontent.com/fullsend-ai/fullsend/
     - https://raw.githubusercontent.com/fullsend-ai/agents/
